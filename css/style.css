@@ -1,0 +1,104 @@
+body {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+#header {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        } 
+
+.logo {
+         width:90px;
+         height:90px;
+         background-color:palevioletred;
+         border-radius: 50%;
+         border: 2px solid black;
+}
+
+.nav-link {
+        padding: 5px 10px;
+        text-decoration: none;
+
+}
+
+#main {
+        margin-top: -5%;
+        width:90%;
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.heading {
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.banner {
+        width:90% ;
+        display:flex ;
+        justify-content:center ;
+        align-items:center ;
+        border: 2px solid black; 
+        border-radius: 10%;
+}
+
+.banner-content{
+        width: 60%;
+}
+
+.banner-image{
+        width: 100px;
+        height: 100px;
+        box-shadow: 0px 0px 20px 5px purple;
+        animation: show-border 2s 0s infinite ease-in normal forwards;
+}
+
+@keyframes show-border {
+        to {box-shadow: none;
+        } 
+}
+
+.products {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+        width: 200px;
+        margin: 10 5px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 5%;
+        
+    }
+
+.product-image{
+        width: 80px;
+        height: 80px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px 5px purple;
+        animation: show-border 2s 0s infinite ease-in normal forwards;
+}
+
+.product-details {
+        width: 50%;
+}
+
+#contact{
+        text-align:center;
+}
